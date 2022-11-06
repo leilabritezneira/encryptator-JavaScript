@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo" >Welcome to the message encryptator</h1>
+    </header>
+    <main>
+        <section>
+            <textarea class="input-texto" cols="25" rows="7" placeholder="Write your text here"></textarea>
+            <h5 class="informacion">Only small letters and no accents allowed.</h5>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encrypt
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    decrypt
+                </button>
+            </div>
+        </section>        
+        <section class="mensaje-box">
+            <textarea class="mensaje" cols="25" rows="7" placeholder="Your text will be here"></textarea>
+            <button class="copiar" onclick="copiar()">Copy</button>
+        </section>        
+    </main>
+    <footer>
+            <p><a href="https://github.com/leilabritezneira">Leila Britez Neira GitHub</a></p>
+            <p><a href="https://www.linkedin.com/in/leila-britez-neira/">Leila Britez Neira LinkedIn</a></p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
